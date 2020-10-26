@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Content } from "../../styles/Elements";
+
 export const Home = () => {
-  return <div>{/* <h1>Perras sucias</h1> */}</div>;
+  return <Content></Content>;
 };

@@ -9,6 +9,7 @@ export const HeaderContainer = styled.header`
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  letter-spacing: 1px;
 `;
 
 export const Ul = styled.ul`
