@@ -1,12 +1,12 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 
-import { Footer as FooterContainer, IconsContainer, P } from "./styles";
+import { P, Footer as FooterContainer, IconsContainer } from "./styles";
 
 export const Footer = () => {
   return (
     <FooterContainer>
-      <P> amaury.vasquezenriquez@gmail.com </P>
+      <P> {"amaury.vasquezenriquez@gmail.com"} </P>
       <IconsContainer>
         <a
           style={{ color: "#3b5998" }}

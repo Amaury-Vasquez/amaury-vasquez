@@ -9,12 +9,6 @@ export const Footer = styled.footer`
   justify-content: space-between;
 `;
 
-export const P = styled.p`
-  margin-left: 5vw;
-  color: "#2d4059";
-  letter-spacing: 1px;
-  font-style: italic;
-`;
 export const IconsContainer = styled.div`
   display: flex;
   width: 30%;
@@ -24,4 +18,10 @@ export const IconsContainer = styled.div`
   & > * {
     margin-left: 30px;
   }
+`;
+
+export const P = styled.p`
+  color: #212121;
+  font-size: 16px;
+  margin-left: 5vw;
 `;

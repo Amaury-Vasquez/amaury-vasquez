@@ -4,7 +4,7 @@ export const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
   html {
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
   }
 
   *, *:before, *:after {
@@ -15,14 +15,19 @@ export const GlobalStyles = createGlobalStyle`
   ul { list-style: none; }
   button { background: transparent; border: 0; outline: 0 }
 
+  a {
+    text-decoration: none;
+  }
+  
   body {
-     background-color: #e5e5e5;
+    background-color: #e5e5e5;
     height: 100vh;
     margin: 0 auto;
     max-width: 100vw;
     overscroll-behavior: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
     width: 100%; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   /* #app {
