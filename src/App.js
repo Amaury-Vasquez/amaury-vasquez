@@ -11,7 +11,7 @@ function App() {
       <GlobalStyles />
       <Layout>
         <Switch>
-          <Route exact path="/" component={Home}></Route>
+          <Route exact path="/amaury-vasquez" component={Home}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>
