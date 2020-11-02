@@ -3,12 +3,12 @@
   Amaury Vasquez 
 <a/> <br/>
 - I am Amaury Vasquez, a tech fan <br/>
-- 🔭 I’m currently studying computer systems at IPN, while working on different personal projects.
-- 🤔  I’m also learning React and Python(django) at Platzi!.
-- 👯 My dream job is to be a remote Data Scientist.
-- 💬 Ask me about C/C++ and JS. I´ll be glad to help.
-- ⚡ Chess Player/Fan, Soccer entusiast.
-- 📫 How to reach me: twitter.com/Amaury-Vasquez11 || amaury.vasquezenriquez@gmail.com
+- 🔭 I’m currently studying computer systems at IPN, while working on different personal projects. <br/>
+- 🤔  I’m also learning React and Python(django) at Platzi!. <br/>
+- 👯 My dream job is to be a remote Data Scientist. <br/>
+- 💬 Ask me about C/C++ and JS. I´ll be glad to help. <br/>
+- ⚡ Chess Player/Fan, Soccer entusiast. <br/>
+- 📫 How to reach me: twitter.com/Amaury-Vasquez11 || amaury.vasquezenriquez@gmail.com <br/> <br/> <br/>
 
 Hola, soy Amaury Vasquez, un apasionado de la tecnología <br/>
 Conocimiento fuerte en C/C++, JS y JAVA. <br/>
