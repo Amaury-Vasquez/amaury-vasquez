@@ -1,6 +1,7 @@
 ### Hi there 👋
+Personal page: 
 <a href="https://amaury-vasquez.github.io/amaury-vasquez/" target="_blank">
-  Pagina personal:  Amaury Vasquez 
+    Amaury Vasquez 
 <a/> <br/>
 - I am Amaury Vasquez, a tech fan <br/>
 - 🔭 I’m currently studying computer systems at IPN, while working on different personal projects. <br/>
