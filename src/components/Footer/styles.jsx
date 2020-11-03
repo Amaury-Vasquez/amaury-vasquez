@@ -7,6 +7,10 @@ export const Footer = styled.footer`
   align-items: center;
   box-sizing: border-box;
   justify-content: space-between;
+  /* position: fixed;
+  top: 0; */
+  background-color: #e5e5e5;
+  /* margin-top: 5vh; */
 `;
 
 export const IconsContainer = styled.div`

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Div = styled.div`
   display: block;
-  /* background-color: #0d7377; */
+  background-color: #eeeeee;
   box-sizing: border-box;
   padding: 10px;
   &:hover {

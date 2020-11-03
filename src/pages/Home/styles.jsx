@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
-  height: 85vh;
+  min-height: 85vh;
   display: block;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
   box-sizing: border-box;
   background-color: #212121;
@@ -36,6 +34,7 @@ export const Greet = styled.h3`
 export const P = styled.p`
   font-size: 22px;
   line-height: 35px;
+  /* margin-bottom: 5vh; */
 `;
 
 export const Image = styled.img`
@@ -46,18 +45,24 @@ export const Image = styled.img`
 
 export const Title = styled.h3`
   font-size: 30px;
+  /* margin-top: 2vh; */
 `;
 
-export const Projects = styled.div`
+export const Container = styled.div`
+  /* border: 2px dotted #212121; */
+  background-color: ${(props) => (props.inverted === true ? "#212121" : "")};
+  border-top: none;
+  /* border-bottom: none; */
   display: block;
-  width: 100vw;
+  width: 90vw;
   height: auto;
+  margin: 0 auto;
+  margin-top: 2vh;
 
   & > h3 {
     text-align: center;
-    margin-top: 2vh;
     margin-bottom: 2vh;
-    color: #212121;
+    color: ${(props) => (props.inverted === true ? "#eeeeee" : "#212121")};
   }
 
   & > svg {
@@ -72,9 +77,13 @@ export const Projects = styled.div`
   }
 `;
 
+Container.defaultProps = {
+  inverted: false,
+};
+
 export const CardContainer = styled.div`
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -82,9 +91,22 @@ export const CardContainer = styled.div`
   width: 90vw;
   grid-gap: 1vw;
   min-height: 40vh;
-  border: 2px dotted #212121;
+  /* box-shadow: 3px 3px #212121; */
   border-bottom: none;
   border-top: none;
   height: auto;
   box-sizing: border-box;
+`;
+
+export const Contact = styled.div`
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ContactText = styled.p`
+  margin-top: 3vh;
+  font-size: 20px;
 `;
