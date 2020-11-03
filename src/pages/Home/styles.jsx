@@ -52,7 +52,8 @@ export const Image = styled.img`
   border-radius: 5px;
   @media screen and (max-width: 500px) {
     grid-row: 1;
-    margin-top: 5vh;
+    /* width: 90%; */
+    /* margin-top: -5vh; */
   }
 `;
 
