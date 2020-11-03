@@ -19,6 +19,10 @@ export const Welcome = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  @media screen and (max-width: 500px) {
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
 `;
 
 export const Article = styled.article`
@@ -29,23 +33,34 @@ export const Article = styled.article`
 
 export const Greet = styled.h3`
   font-size: 30px;
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+  }
 `;
 
 export const P = styled.p`
   font-size: 22px;
   line-height: 35px;
-  /* margin-bottom: 5vh; */
+  @media screen and (max-width: 500px) {
+    font-size: 16px;
+  } /* margin-bottom: 5vh; */
 `;
 
 export const Image = styled.img`
   width: 100%;
   height: auto;
   border-radius: 5px;
+  @media screen and (max-width: 500px) {
+    grid-row: 1;
+    margin-top: 5vh;
+  }
 `;
 
 export const Title = styled.h3`
   font-size: 30px;
-  /* margin-top: 2vh; */
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+  } /* margin-top: 2vh; */
 `;
 
 export const Container = styled.div`
@@ -59,21 +74,13 @@ export const Container = styled.div`
   margin: 0 auto;
   margin-top: 2vh;
 
+  @media screen and (max-width: 500px) {
+    width: 100vw;
+  }
   & > h3 {
     text-align: center;
     margin-bottom: 2vh;
     color: ${(props) => (props.inverted === true ? "#eeeeee" : "#212121")};
-  }
-
-  & > svg {
-    font-size: 32px;
-    cursor: pointer;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 0.5vh;
-  }
-  & > svg:hover {
-    font-size: 36px;
   }
 `;
 
@@ -92,10 +99,14 @@ export const CardContainer = styled.div`
   grid-gap: 1vw;
   min-height: 40vh;
   /* box-shadow: 3px 3px #212121; */
-  border-bottom: none;
-  border-top: none;
   height: auto;
   box-sizing: border-box;
+  @media screen and (max-width: 500px) {
+    grid-template-columns: 1fr;
+    width: 100vw;
+    grid-gap: 2vh;
+    /* padding: 0; */
+  }
 `;
 
 export const Contact = styled.div`
@@ -109,4 +120,8 @@ export const Contact = styled.div`
 export const ContactText = styled.p`
   margin-top: 3vh;
   font-size: 20px;
+  @media screen and (max-width: 500px) {
+    font-size: 16px;
+    text-align: center;
+  }
 `;
