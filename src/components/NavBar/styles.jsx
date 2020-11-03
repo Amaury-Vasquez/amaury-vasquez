@@ -8,17 +8,15 @@ export const Div = styled.div`
   box-sizing: border-box;
   position: fixed;
   background-color: #e5e5e5;
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 `;
 
 export const Ul = styled.ul`
   display: flex;
   width: 90vw;
   padding: 20px;
-  @media screen and (max-width: 500px) {
-    width: 100vw;
-    padding: 10px;
-    justify-content: space-around;
-  }
 `;
 
 export const Li = styled.li`
@@ -29,8 +27,5 @@ export const Li = styled.li`
   &:hover {
     cursor: pointer;
     color: #0d7377;
-  }
-  @media screen and (max-width: 500px) {
-    font-size: 16px;
   }
 `;
