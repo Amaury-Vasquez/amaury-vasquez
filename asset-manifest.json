@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/amaury-vasquez/static/js/main.b047583d.chunk.js",
-    "main.js.map": "/amaury-vasquez/static/js/main.b047583d.chunk.js.map",
+    "main.js": "/amaury-vasquez/static/js/main.a7cc2da4.chunk.js",
+    "main.js.map": "/amaury-vasquez/static/js/main.a7cc2da4.chunk.js.map",
     "runtime-main.js": "/amaury-vasquez/static/js/runtime-main.743a2625.js",
     "runtime-main.js.map": "/amaury-vasquez/static/js/runtime-main.743a2625.js.map",
-    "static/js/2.2d2a795e.chunk.js": "/amaury-vasquez/static/js/2.2d2a795e.chunk.js",
-    "static/js/2.2d2a795e.chunk.js.map": "/amaury-vasquez/static/js/2.2d2a795e.chunk.js.map",
+    "static/js/2.1c3b82e7.chunk.js": "/amaury-vasquez/static/js/2.1c3b82e7.chunk.js",
+    "static/js/2.1c3b82e7.chunk.js.map": "/amaury-vasquez/static/js/2.1c3b82e7.chunk.js.map",
     "index.html": "/amaury-vasquez/index.html",
-    "static/js/2.2d2a795e.chunk.js.LICENSE.txt": "/amaury-vasquez/static/js/2.2d2a795e.chunk.js.LICENSE.txt"
+    "static/js/2.1c3b82e7.chunk.js.LICENSE.txt": "/amaury-vasquez/static/js/2.1c3b82e7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.743a2625.js",
-    "static/js/2.2d2a795e.chunk.js",
-    "static/js/main.b047583d.chunk.js"
+    "static/js/2.1c3b82e7.chunk.js",
+    "static/js/main.a7cc2da4.chunk.js"
   ]
 }
