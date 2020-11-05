@@ -74,20 +74,6 @@ export const Home = () => {
             title="Estructuras de datos en C"
             description="Implementación de árboles binarios, pilas y colas en C."
           ></Card>
-          <Card
-            url="https://amaury-vasquez.github.io/kantodex/"
-            src="https://i.imgur.com/RiHqejt.png"
-            alt="pokedex de kanto"
-            title="Kantodex"
-            description="Simple pagina web mostrando los pokemones de Kanto."
-          ></Card>
-          <Card
-            url="https://amaury-vasquez.github.io/Responsive-blog/"
-            src="https://i.imgur.com/pImO90D.png"
-            alt="Responsive blog"
-            title="Blog"
-            description="Apuntes y pensamientos personales."
-          ></Card>
         </CardContainer>
       </Container>
       <Content>

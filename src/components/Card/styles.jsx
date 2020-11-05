@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { fadeIn } from "../../styles/animation";
+
 export const Div = styled.div`
   display: block;
   background-color: #eeeeee;
@@ -11,6 +13,7 @@ export const Div = styled.div`
 `;
 
 export const Image = styled.img`
+  ${fadeIn()}
   width: 100%;
   height: auto;
 `;

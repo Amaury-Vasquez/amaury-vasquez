@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { fadeIn } from "../../styles/animation";
+
 export const Content = styled.div`
   min-height: 85vh;
   display: block;
@@ -47,6 +49,7 @@ export const P = styled.p`
 `;
 
 export const Image = styled.img`
+  ${fadeIn()};
   width: 100%;
   height: auto;
   border-radius: 5px;

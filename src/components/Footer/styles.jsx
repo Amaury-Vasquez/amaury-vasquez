@@ -45,6 +45,7 @@ export const P = styled.p`
   @media screen and (max-width: 500px) {
     margin: 0;
     margin-top: 3vh;
+    margin-bottom: 3vh;
     text-align: center;
     grid-row: 2;
   }
