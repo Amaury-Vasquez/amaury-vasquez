@@ -25,6 +25,9 @@ export const Welcome = styled.div`
     grid-template-columns: 1fr;
     width: 100vw;
   }
+  @media screen and (max-width: 1100px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Article = styled.article`
@@ -45,7 +48,7 @@ export const P = styled.p`
   line-height: 35px;
   @media screen and (max-width: 500px) {
     font-size: 16px;
-  } /* margin-bottom: 5vh; */
+  }
 `;
 
 export const Image = styled.img`
@@ -55,8 +58,10 @@ export const Image = styled.img`
   border-radius: 5px;
   @media screen and (max-width: 500px) {
     grid-row: 1;
-    /* width: 90%; */
-    /* margin-top: -5vh; */
+    margin-top: -5vh; 
+  }
+  @media screen and (max-width: 1100px) {
+    margin-top: -10vh;
   }
 `;
 
@@ -64,14 +69,12 @@ export const Title = styled.h3`
   font-size: 30px;
   @media screen and (max-width: 500px) {
     font-size: 20px;
-  } /* margin-top: 2vh; */
+  }
 `;
 
 export const Container = styled.div`
-  /* border: 2px dotted #212121; */
   background-color: ${(props) => (props.inverted === true ? "#212121" : "")};
   border-top: none;
-  /* border-bottom: none; */
   display: block;
   width: 90vw;
   height: auto;
@@ -102,14 +105,12 @@ export const CardContainer = styled.div`
   width: 90vw;
   grid-gap: 1vw;
   min-height: 40vh;
-  /* box-shadow: 3px 3px #212121; */
   height: auto;
   box-sizing: border-box;
   @media screen and (max-width: 500px) {
     grid-template-columns: 1fr;
     width: 100vw;
     grid-gap: 2vh;
-    /* padding: 0; */
   }
 `;
 
