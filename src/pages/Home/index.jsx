@@ -66,14 +66,20 @@ export const Home = () => {
             alt="memorama"
             title="Memorama Pokemon"
             description="Juego de memorama, creado usando React."
-          ></Card>
+          />
           <Card
             url="https://github.com/Amaury-Vasquez/C-Data-Structs"
             src="https://i.imgur.com/O09jags.png"
             alt="Estructuras de datos"
             title="Estructuras de datos en C"
             description="Implementación de árboles binarios, pilas y colas en C."
-          ></Card>
+          />
+          <Card 
+            url={"https://amaury-vasquez.github.io/rock-paper-scissors/"}
+            src={"https://i.imgur.com/rD1a7Vo.png"}
+            alt={"Piedra, Papel y Tijeras"}
+            title={"Rock Paper Scissors"}
+            description={"Juego clásico de piedra, papel y tijeras"} />
         </CardContainer>
       </Container>
       <Content>
