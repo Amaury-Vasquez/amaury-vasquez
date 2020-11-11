@@ -88,7 +88,7 @@ export const Home = () => {
             <Article>
               <Title>{"Formación"} </Title>
               <P>
-                {"Estudiando Sistemas Computacionales en IPN."} <br />
+                {/* {"Estudiando Sistemas Computacionales en IPN."} <br /> */}
                 {"Estudiante activo en Platzi."} <br />
                 {"Autodidacta."} <br /> <br />
               </P>
