@@ -61,25 +61,26 @@ export const Home = () => {
         <Title>Proyectos</Title>
         <CardContainer>
           <Card
-            url="https://amaury-vasquez.github.io/memorama-pokemon/"
-            src="https://i.imgur.com/znUVjQO.png"
-            alt="memorama"
-            title="Memorama Pokemon"
-            description="Juego de memorama, creado usando React."
+            url="https://amauryvasquezblog.netlify.app/"
+            src="https://i.imgur.com/gI5qP3s.png"
+            alt="Blog"
+            title="Blog personal"
+            description="Blog creado para compartir mis pensamientos."
           />
           <Card
-            url="https://github.com/Amaury-Vasquez/C-Data-Structs"
-            src="https://i.imgur.com/O09jags.png"
-            alt="Estructuras de datos"
-            title="Estructuras de datos en C"
-            description="Implementación de árboles binarios, pilas y colas en C."
+            url={"https://pokerama.netlify.app/"}
+            src={"https://i.imgur.com/MfCafDP.png"}
+            alt="Pokerama"
+            title="Pokerama"
+            description="Juego de memorama pokemon."
           />
-          <Card 
+          <Card
             url={"https://amaury-vasquez.github.io/rock-paper-scissors/"}
-            src={"https://i.imgur.com/rD1a7Vo.png"}
+            src={"https://i.imgur.com/9urSYHg.png"}
             alt={"Piedra, Papel y Tijeras"}
             title={"Rock Paper Scissors"}
-            description={"Juego clásico de piedra, papel y tijeras"} />
+            description={"Juego clásico de piedra, papel y tijeras."}
+          />
         </CardContainer>
       </Container>
       <Content>
