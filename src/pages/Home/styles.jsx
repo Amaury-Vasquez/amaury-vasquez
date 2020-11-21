@@ -53,12 +53,13 @@ export const P = styled.p`
 
 export const Image = styled.img`
   ${fadeIn()};
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 5px;
   @media screen and (max-width: 500px) {
     grid-row: 1;
-    margin-top: -5vh; 
+    margin-top: 5vh;
+    width: 100%;
   }
   @media screen and (max-width: 1100px) {
     margin-top: -10vh;

@@ -54,7 +54,7 @@ export const Home = () => {
               Futbolista <GiSoccerBall color="#32e0c4" />
             </P>
           </Article>
-          <Image src="https://i.imgur.com/5QwcgnG.jpg" alt="Amaury Vasquez" />
+          <Image src="https://i.imgur.com/J6eW7P6.jpg" alt="Amaury Vasquez" />
         </Welcome>
       </Content>
       <Container ref={projects}>
