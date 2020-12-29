@@ -9,5 +9,5 @@ Personal page:
 - 👯 My dream job is to be a remote Data Scientist. <br/>
 - 💬 Ask me about C/C++ and JS. I´ll be glad to help. <br/>
 - ⚡ Chess Player/Fan, Soccer entusiast. <br/>
-- 📫 How to reach me: twitter.com/Amaury-Vasquez11 || amaury.vasquezenriquez@gmail.com <br/> <br/> <br/>
+- 📫 How to reach me: <a href="https://twitter.com/AmauryVasquez11" target="_blank">  twitter.com/Amaury-Vasquez11 </a> || amaury.vasquezenriquez@gmail.com <br/> <br/> <br/>
 
