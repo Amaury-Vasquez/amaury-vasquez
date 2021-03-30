@@ -1,6 +1,6 @@
 ### Hi there 👋
 Personal page: 
-<a href="https://amaury-vasquez-portfolio.netlify.app/contact" target="_blank">
+<a href="https://amaury-vasquez-portfolio.netlify.app/" target="_blank">
     Amaury Vasquez 
 <a/> <br/>
 - I am Amaury Vasquez, a tech fan <br/>
