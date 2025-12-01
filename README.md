@@ -1,5 +1,5 @@
 ### Hi there 👋
-My name is Amaury Vasquez, a junior software engineer especialized in frontend. <br/>
+My name is Amaury Vasquez, a software engineer especialized in frontend. <br/>
 Personal page: 
 <a href="https://amauryvasquez.com/" target="_blank">
     Amaury Vasquez 
